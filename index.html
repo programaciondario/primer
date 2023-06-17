@@ -6,23 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             *{box-sizing: border-box;}
-body {background-image: url(imagenes/fondo.jpg); background-repeat: no-repeat; background-size: cover; font-size: 20px;}
-div {background-color: antiquewhite; float: left; border: 10px solid white; padding: 10px; margin-top: 10px;}
-h2 {font-size: 50px;}
-.principal {width: 60%;}
-.secundario {width: 40%;}
-@media screen and (max-width: 1500px) {
-    h2 {font-size: 25px;}
-    body {font-size: 10px;}
-}
-
-@media screen and (max-width: 800px) {
-    .principal,
-    .secundario {width: 100%; float: none}
+body {position: relative; background: #f4f4d9; color: #2d211f; font-size: 16px; line-height: 1.8; font-family: sans-serif; max-width: 850px; margin: 30px auto; padding: 15px 30px;}
+ul {padding: 0; list-style: none; margin: 0;}
+p {margin-bottom: 15px;}
+.navegacion a{display: block; text-decoration: none; color: #2d211f; border-bottom: 1px solid #2d211f;}
+.lanzador-menu {text-decoration: none; color: #fff; padding: 6px 10px; background-color: #2d211f; border-radius: 3px;}
+@media screen and (min-width: 600px) {
+    .lanzador-menu{display: none;}
+    .navegacion {position: absolute; top: -30px;}
+    body {border-top: 60px;}
+    .navegacion li{display: inline-block; margin-right: 15px;}
 }
         </style>
     </head>
     <body>
+        <a href="#menu" class="lanzador-menu" id="enlace-menu">Menu</a>
         <div class="principal">
             <h2>Esquinas redondeadas</h2>
             <p>
@@ -64,6 +62,46 @@ h2 {font-size: 50px;}
                 para las 4 esquinas)<br> o hasta 4 valores, que se asignan uno a cada esquina,<br> empezando
                 por la superior izquierda y <br>siguiendo las agujas del reloj.<br>
             </p>
+        </div>
+        <div>
+            <p> 
+            border-radius: valor;
+            Radio de redondeo de las esquinas de un elemento.<br> Puede dársele un valor (igual
+            para las 4 esquinas)<br> o hasta 4 valores, que se asignan uno a cada esquina,<br> empezando
+            por la superior izquierda y <br>siguiendo las agujas del reloj.<br>
+            Radio de redondeo de las esquinas de un elemento.<br> Puede dársele un valor (igual
+            para las 4 esquinas)<br> o hasta 4 valores, que se asignan uno a cada esquina,<br> empezando
+            por la superior izquierda y <br>siguiendo las agujas del reloj.<br>
+            Radio de redondeo de las esquinas de un elemento.<br> Puede dársele un valor (igual
+            para las 4 esquinas)<br> o hasta 4 valores, que se asignan uno a cada esquina,<br> empezando
+            por la superior izquierda y <br>siguiendo las agujas del reloj.<br>
+            Radio de redondeo de las esquinas de un elemento.<br> Puede dársele un valor (igual
+            para las 4 esquinas)<br> o hasta 4 valores, que se asignan uno a cada esquina,<br> empezando
+            por la superior izquierda y <br>siguiendo las agujas del reloj.<br>
+            Radio de redondeo de las esquinas de un elemento.<br> Puede dársele un valor (igual
+            para las 4 esquinas)<br> o hasta 4 valores, que se asignan uno a cada esquina,<br> empezando
+            por la superior izquierda y <br>siguiendo las agujas del reloj.<br>
+            </p>
+            <h2 id="servicios">PROBANDO</h2>
+        </div>
+        <div id="menu" class="navegacion">
+            <ul>
+                <li>
+                    <a href="#">inicio</a>
+                </li>
+                <li>
+                    <a href="#servicios">servicios</a>
+                </li>
+                <li>
+                    <a href="#">productos</a>
+                </li>
+                <li>
+                    <a href="#">contactos</a>
+                </li>
+                <li>
+                    <a href="#">blog</a>
+                </li>
+            </ul>
         </div>
 
     </body>
