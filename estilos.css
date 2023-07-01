@@ -1,1 +1,66 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box}
+
+/*BODY*/
+body {margin: 0px;
+    background-color: coral;
+}
+
+
+
+
+
+/*ENCABEZADO*/
+
+header {text-align: center; padding: 15%;}
+
+header h1 {font-size: 44px; color: #ded6c0;}
+
+header p {font-size: 16px; color: white;}
+
+.contenedor {background-color: #ded6c0; width: 8%; height: 2px; margin-left: auto; margin-right: auto}
+
+
+#logo {position: absolute; left: 30px; top: 30px;}
+
+
+
+
+/*NAV*/
+#menuprincipal {position: absolute; top: 20px; right: 20px;}
+
+#menuprincipal li {display: inline-block; padding: 15px 10px 0px 10px; margin-right: 5px;}
+
+#menuprincipal a {text-decoration: none; font: bold 80% arial, sans-serif; color: white;}
+
+
+
+
+/*CONTENIDO*/
+
+main {text-align: center;}
+
+#caja1 {float: left; width: 50%; padding: 4%; background-color: #d03b40; color: #ded6c0;}
+#caja2 {float: right; width: 50%; padding: 4%; background-color: #ded6c0; color: #d03b40;}
+
+#fondo2 {padding: 15%; clear: both;}
+
+#fondo2 h2 {color: white; font-size: 28px;}
+
+#contenedor1 {background-color: #ded6c0; margin-left: auto; margin-right: auto; width: 4%; height: 2px;} 
+
+#fondo2 p {color:#ded6c0; font-size: 16px;}
+
+#contenedor2 {border: solid; border-color: #ded6c0; color: #ded6c0; width: 22%; margin-left: auto; margin-right: auto; padding-top: 0.5%; padding-bottom: 0.5%;}
+
+
+
+
+
+
+
+
+/*PIE DE PAGINA*/
+
+footer {background-color: maroon; width: auto; height: 100px;}
+
+#piedepagina {padding-top: 50px; padding-left: 20px;}
