@@ -3,11 +3,6 @@
 /*BODY*/
 body {margin: 0px;
 }
-
-
-
-
-
 /*ENCABEZADO*/
 
 header {background-image: url(imagenes/Fondo1.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; text-align: center; padding: 20%;}
@@ -18,11 +13,7 @@ header p {font-size: 16px; color: white;}
 
 .contenedor {background-color: #ded6c0; width: 8%; height: 2px; margin-left: auto; margin-right: auto}
 
-
 #logo {position: absolute; left: 30px; top: 30px;}
-
-
-
 
 /*NAV*/
 #menuprincipal {position: absolute; top: 20px; right: 20px;}
@@ -30,9 +21,6 @@ header p {font-size: 16px; color: white;}
 #menuprincipal li {display: inline-block; padding: 10px 10px 0px 10px; margin-right: 5px;}
 
 #menuprincipal a {text-decoration: none; font: bold 100% verdana, sans-serif; color: white;}
-
-
-
 
 /*CONTENIDO*/
 
