@@ -3,9 +3,14 @@
 /*BODY*/
 body {margin: 0px;
 }
+
+
+
+
+
 /*ENCABEZADO*/
 
-header {background-image: url(imagenes/Fondo1.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; text-align: center; padding: 20%;}
+header {background-image: url(imagenes/Fondo1.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; text-align: center; padding: 20%; margin-left: auto; margin-right: auto;}
 
 header h1 {font-size: 44px; color: #ded6c0;}
 
@@ -13,7 +18,11 @@ header p {font-size: 16px; color: white;}
 
 .contenedor {background-color: #ded6c0; width: 8%; height: 2px; margin-left: auto; margin-right: auto}
 
+
 #logo {position: absolute; left: 30px; top: 30px;}
+
+
+
 
 /*NAV*/
 #menuprincipal {position: absolute; top: 20px; right: 20px;}
@@ -22,6 +31,9 @@ header p {font-size: 16px; color: white;}
 
 #menuprincipal a {text-decoration: none; font: bold 100% verdana, sans-serif; color: white;}
 
+
+
+
 /*CONTENIDO*/
 
 main {text-align: center;}
@@ -29,7 +41,7 @@ main {text-align: center;}
 #caja1 {float: left; width: 50%; padding: 4%; background-color: #d03b40; color: #ded6c0;}
 #caja2 {float: right; width: 50%; padding: 4%; background-color: #ded6c0; color: #d03b40;}
 
-#fondo2 {background-image: url(imagenes/Fondo2.jpg);  background-repeat: no-repeat; background-size: cover; background-attachment: fixed; padding: 15%; clear: both;}
+#fondo2 {background-image: url(imagenes/Fondo2.jpg);  background-repeat: no-repeat; background-size: contain; background-attachment: fixed; padding: 15%; clear: both;}
 
 #fondo2 h2 {color: white; font-size: 28px;}
 
@@ -48,6 +60,6 @@ main {text-align: center;}
 
 /*PIE DE PAGINA*/
 
-footer {background-color: maroon; width: auto; height: 100px;}
+footer {background-color: #201914; color: #ded6c0; width: auto; height: 100px;}
 
 #piedepagina {padding-top: 50px; padding-left: 20px;}
