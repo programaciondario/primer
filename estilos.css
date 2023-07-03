@@ -41,7 +41,7 @@ main {text-align: center;}
 #caja1 {float: left; width: 50%; padding: 5%; background-color: #d03b40; color: #ded6c0;}
 #caja2 {float: right; width: 50%; padding: 5%; background-color: #ded6c0; color: #d03b40;}
 
-#fondo2 {background-image: url(imagenes/Fondo2.jpg);  background-repeat: no-repeat; background-size: cover; background-attachment: fixed; padding: 15%; clear: both;}
+.fondo2 {background-image: url(imagenes/Fondo2.jpg);  background-repeat: no-repeat; background-size: cover; background-attachment: fixed; padding: 15%; clear: both;}
 
 #caja3 {background-color: #ded6c0; color: #d03b40; float: left; width: 50%; padding: 5%;}
 
@@ -57,21 +57,21 @@ main {text-align: center;}
 
 .multiples {margin: 0px; }
 
-#icono1 {float: left; width: 50%;}
-#icono1 img {float: left; padding-left: 50px; padding-top: 50px; padding-bottom: 50px;}
-#icono1 h2 {padding-top: 30px;}
+#icono1 {float: left; width: 50%; height: 300px;}
+#icono1 img {float: left; padding-left: 50px; padding-top: 65px; padding-bottom: 50px;}
+#icono1 h2 {padding-top: 45px;}
 
-#icono2 {float: right; width: 50%;}
-#icono2 img {float: left; padding-left: 50px; padding-top: 50px; padding-bottom: 50px;}
-#icono2 h2 {padding-top: 30px;}
+#icono2 {float: right; width: 50%; height: 300px;}
+#icono2 img {float: left; padding-left: 50px; padding-top: 65px; padding-bottom: 50px;}
+#icono2 h2 {padding-top: 45px;}
 
-#icono3 {float: left; width: 50%;}
-#icono3 img {float: left; padding-left: 50px; padding-top: 50px; padding-bottom: 50px;}
-#icono3 h2 {padding-top: 30px;}
+#icono3 {float: left; width: 50%; height: 300px;}
+#icono3 img {float: left; padding-left: 50px; padding-top: 65px; padding-bottom: 50px;}
+#icono3 h2 {padding-top: 45px;}
 
-#icono4 {float: right; width: 50%;}
-#icono4 img {float: left; padding-left: 50px; padding-top: 50px; padding-bottom: 50px;}
-#icono4 h2 {padding-top: 30px;}
+#icono4 {float: right; width: 50%;height: 300px;}
+#icono4 img {float: left; padding-left: 50px; padding-top: 65px; padding-bottom: 50px;}
+#icono4 h2 {padding-top: 45px;}
 
 
 
@@ -79,6 +79,8 @@ main {text-align: center;}
 
 /*PIE DE PAGINA*/
 
+#volver {text-align: center; font: bold 100% verdana, sans-serif; color: white;}
+
 footer {background-color: #201914; color: #ded6c0; width: auto; height: 100px; clear: both;}
 
-#piedepagina {padding-top: 50px; padding-left: 20px;}
+#derechos {padding-top: 30px; padding-left: 20px;}
